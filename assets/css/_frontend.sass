@@ -1,0 +1,54 @@
+// frontend style
+
+
+.most__commented 
+    li 
+        list-style-type: none
+        margin: 0px
+        a 
+            text-decoration: none
+
+.post__body 
+    background-color: #ffff
+    padding: 20px
+
+
+// tumbalink hover effect to task
+
+.post__image
+  display: inline-block
+  position: relative
+  width: 200px
+  height: 100px
+  overflow: hidden 
+  img 
+      width: 100%
+      height: 100%
+      transition: 0.3s
+
+//  General styles for overlapping element
+
+
+.cover__bg
+  display: none
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+
+//  Display overlapping elements when hovering over a block with an image
+
+.post__image:hover
+  .cover__bg, img
+    display: block
+    transform: rotate(30deg) scale(1.2)
+    cursor: pointer
+
+//  Semi-transparent overlay blue background
+
+.cover__bg
+  background: linear-gradient(90deg, rgba(240, 241, 242, 1) 0%, rgba(54, 157, 157, 0.6561975132) 100%)
+  opacity: .8
+
+  
