@@ -92,12 +92,11 @@
 		}
 		
 			<!-- Development shortcode -->
-		<?php
-	
+	<?php
 		return ob_get_clean();
 
-
 	}
+	
 	add_shortcode('post-test-shortcode', 'post_test_shortcode');
 
 

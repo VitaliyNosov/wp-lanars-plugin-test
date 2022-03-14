@@ -7,7 +7,7 @@
     <img src="https://i.ibb.co/7b7s0vJ/plugin-test-baner.png"alt="Baner">
 </p>
 
-> In the folder: site-dulicator find the entire site with the plugin. It can be deployed and tested to make sure it works.
+> In the folder: site-duplicator find the entire site with the plugin. It can be deployed and tested to make sure it works.
 
 ### Start:
 
